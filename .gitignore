@@ -35,3 +35,6 @@ CMakeCache.txt
 *.dep
 *.make
 *.db
+
+# prof input files type
+*.hrn
