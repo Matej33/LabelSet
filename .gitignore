@@ -1,0 +1,37 @@
+# Ignore C++ build files
+# Compiled object files
+*.o
+*.obj
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executable files
+*.out
+*.exe
+
+# Debug and release directories
+/debug/
+*Debug*/
+*Release*/
+
+# CMake files
+CMakeLists.txt.user
+CMakeCache.txt
+*.cmake
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Ignore generated files from common C++ tools
+*.d
+*.dep
+*.make
+*.db
